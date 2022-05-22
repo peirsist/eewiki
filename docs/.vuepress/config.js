@@ -7,13 +7,13 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题 
   // theme: require.resolve('../../vdoing'), // 使用本地主题
   dest: './public',
-  title: "CS-Wiki",
-  description: '致力打造完善的 Java 后端知识体系. Not only an Interview-Guide, but also a Learning-Direction.',
+  title: "起名字好难",
+  description: '一个正在慢慢进化的个人知识库',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   // 如果GitHub Pages绑定域名，那么配置文件中的base参数则需要删除，否则域名访问会失败。
   // base : '/cs-wiki/',
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/VCG211359206779.png' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'java,algorithm,interview' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
@@ -26,31 +26,48 @@ module.exports = {
   themeConfig: {
     nav: [
       { text: 'Home', link: '/'},
-      { text: '唠唠嗑儿', link: '/pages/first/'},
-      { text: '数据结构与算法', link: '/pages/tips/'},
+      // { text: '唠唠嗑儿', link: '/pages/first/'},
+      {
+        text: '编程语言', link: '/pages/59c91a/', items: [
+          { text: 'C++', link: '/pages/23adf4/' },
+          { text: 'Python', link: '/pages/cefad0/' },
+          // { text: '计算机网络', link: '/pages/09b904/' },
+          // { text: '操作系统', link: '/pages/54651a/' },
+        ]
+      },
       { 
         text: '计算机基础', 
         items: [
           { text: '计算机网络', link: '/pages/net/' },
+          { text: '数据结构与算法', link: '/pages/tips/'},
+          { text: '计算机组成原理', link: '/pages/492f4f/' }
           { text: '操作系统', link: '/pages/os/' },
-          { text: 'MySQL', link: '/pages/sql/' }
+          
         ]
       },
-      { 
-        text: 'Java', 
-        items: [
-          { text: 'Java 基础', link: '/pages/java/' },
-          { text: 'Java 集合', link: '/pages/javalist/' },
-          { text: 'Java 并发', link: '/pages/javaconcurrent/' },
-          { text: 'Java 虚拟机', link: '/pages/jvm/' }
-        ]
-      },
-      { 
-        text: '框架', 
-        items: [
-          { text: 'Spring', link: '/pages/spring/' },
-        ]
-      },
+      { text: '更多', link: '/pages/f2a556/', items: [
+          { text: '学习', link: '/pages/f2a556/' },
+          { text: '面试', link: '/pages/aea6571b7a8bae86' },
+          { text: '心情杂货', link: '/pages/2d615df9a36a98ed' },
+          { text: '生活杂货', link: '/pages/224714/' },
+          { text: '使用技巧', link: '/pages/baaa02/' },
+        ] 
+    },
+      // { 
+      //   text: 'Java', 
+      //   items: [
+      //     { text: 'Java 基础', link: '/pages/java/' },
+      //     { text: 'Java 集合', link: '/pages/javalist/' },
+      //     { text: 'Java 并发', link: '/pages/javaconcurrent/' },
+      //     { text: 'Java 虚拟机', link: '/pages/jvm/' }
+      //   ]
+      // },
+      // { 
+      //   text: '框架', 
+      //   items: [
+      //     { text: 'Spring', link: '/pages/spring/' },
+      //   ]
+      // },
       { text: '最近更新', link: '/archives/'},
       
     ],
@@ -97,7 +114,7 @@ module.exports = {
     archive: true, // 是否打开归档功能，默认true。 如打开，会做的事情有：1.自动生成归档页面（在@pages文件夹）。如关闭，则反之。
 
     author: { // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, href: String}
-      name: '小牛肉', // 必需
+      name: 'peirsist', // 必需
       // href: 'https://github.com/xugaoyi' // 可选的
     },
     // social: { // 社交图标，显示于博主信息栏和页脚栏
@@ -121,8 +138,8 @@ module.exports = {
     //   ]
     // },
     footer: { // 页脚信息
-      createYear: 2019, // 博客创建年份
-      copyrightInfo: '小牛肉 | 心之所愿，素履以往', // 博客版权信息，支持a标签
+      createYear: 2022, // 博客创建年份
+      copyrightInfo: 'peirsist | 早睡，运动，读书', // 博客版权信息，支持a标签
     },
 
     htmlModules, // 广告
