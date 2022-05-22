@@ -53,12 +53,13 @@ module.exports = {
           
         ]
       },
-      { text: '更多', link: '/pages/f2a556/', items: [
-          { text: '学习', link: '/pages/f2a556/' },
+      { text: '更多', link: '/pages/c82e3c/', items: [
+          { text: '英语学习', link: '/pages/c82e3c/' },
           { text: '面试', link: '/pages/aea6571b7a8bae86' },
-          { text: '心情杂货', link: '/pages/2d615df9a36a98ed' },
+          { text: '运动', link: '/pages/74dc5b/' },
           { text: '生活杂货', link: '/pages/224714/' },
-          { text: '使用技巧', link: '/pages/baaa02/' },
+          { text: '实用技巧', link: '/pages/baaa02/' },
+          { text: '软件使用安装', link: '/pages/a257ba/' },
         ] 
     },
       // { 
@@ -85,7 +86,7 @@ module.exports = {
     },
     
     // logo: 'https://cs-wiki.oss-cn-shanghai.aliyuncs.com/img/20220514093911.png', // 导航栏logo
-    repo: 'veal98/cs-wiki', // 导航栏右侧生成Github链接
+    repo: 'peirsist/eewiki', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
 
