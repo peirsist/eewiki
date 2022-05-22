@@ -7,13 +7,13 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题 
   // theme: require.resolve('../../vdoing'), // 使用本地主题
   dest: './public',
-  title: "起名字好难",
+  title: "EEWiKi",
   description: '一个正在慢慢进化的个人知识库',
   // base: '/', // 默认'/'。如果你想将你的网站部署到如 https://foo.github.io/bar/，那么 base 应该被设置成 "/bar/",（否则页面将失去样式等文件）
   // 如果GitHub Pages绑定域名，那么配置文件中的base参数则需要删除，否则域名访问会失败。
   // base : '/cs-wiki/',
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/111.ico' }], //favicons，资源放在public文件夹
     ['meta', { name: 'keywords', content: 'java,algorithm,interview' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
@@ -84,7 +84,7 @@ module.exports = {
       extractHeaders: [ 'h2', 'h3', 'h4', 'h5', 'h6' ],
     },
     
-    logo: 'https://cs-wiki.oss-cn-shanghai.aliyuncs.com/img/20220514093911.png', // 导航栏logo
+    // logo: 'https://cs-wiki.oss-cn-shanghai.aliyuncs.com/img/20220514093911.png', // 导航栏logo
     repo: 'veal98/cs-wiki', // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: '上次更新', // 更新的时间，及前缀文字   string | boolean (取值为git提交时间)
