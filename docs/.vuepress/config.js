@@ -14,7 +14,7 @@ module.exports = {
   // base : '/cs-wiki/',
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
     ['link', { rel: 'icon', href: '/img/111.ico' }], //favicons，资源放在public文件夹
-    ['meta', { name: 'keywords', content: 'java,algorithm,interview' }],
+    ['meta', { name: 'keywords', content: 'C++,algorithm,interview' }],
     ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
     // ['meta', { name: 'wwads-cn-verify', content: '6c4b761a28b734fe93831e3fb400ce87' }], // 广告相关，你可以去掉
     // ['script', { src: 'https://cdn.wwads.cn/js/makemoney.js', type: 'text/javascript' }], // 广告相关，你可以去掉
@@ -25,7 +25,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     nav: [
-      { text: 'Home', link: '/'},
+      { text: '主页', link: '/'},
       // { text: '唠唠嗑儿', link: '/pages/first/'},
       {
         text: '科研相关', link: '/pages/c8820d/', items: [
@@ -47,8 +47,8 @@ module.exports = {
         text: '计算机基础', 
         items: [
           { text: '计算机网络', link: '/pages/net/' },
-          { text: '数据结构与算法', link: '/pages/tips/'},
-          { text: '计算机组成原理', link: '/pages/492f4f/' },
+          { text: '数据结构与算法', link: '/pages/dataStruct/'},
+          { text: '计算机组成原理', link: '/pages/composition/' },
           { text: '操作系统', link: '/pages/os/' },
           
         ]
