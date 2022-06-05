@@ -57,7 +57,7 @@ module.exports = {
           { text: '英语学习', link: '/pages/c82e3c/' },
           { text: '面试', link: '/pages/aea6571b7a8bae86' },
           { text: '运动', link: '/pages/74dc5b/' },
-          { text: '生活杂货', link: '/pages/224714/' },
+          { text: '生活读书杂货', link: '/pages/224714/' },
           { text: '实用技巧', link: '/pages/baaa02/' },
           { text: '软件使用安装', link: '/pages/a257ba/' },
         ] 
