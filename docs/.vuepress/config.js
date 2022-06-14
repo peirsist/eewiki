@@ -25,7 +25,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     nav: [
-      { text: '主页', link: '/'},
+      { text: '首页', link: '/'},
       // { text: '唠唠嗑儿', link: '/pages/first/'},
       {
         text: '科研相关', link: '/pages/c8820d/', items: [

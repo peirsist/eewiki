@@ -1,6 +1,7 @@
 ---
 home: true
-#heroImage: https://cs-wiki.oss-cn-shanghai.aliyuncs.com/img/20210212163625.png
+heroImage: https://s1.ax1x.com/2022/06/14/X5vZDg.png
+# heroImage: https://s1.ax1x.com/2022/06/14/X5vVKS.png
 # heroImage: https://cdn.jsdelivr.net/gh/xugaoyi/image_store/blog/20200409124835.png
 heroText: EEWiKi
 tagline: 🚀 一个正在慢慢进化的个人知识库
