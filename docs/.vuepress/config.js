@@ -32,7 +32,7 @@ module.exports = {
           { text: '命名数据网络', link: '/pages/c8820d/' },
           { text: '论文笔记', link: '/pages/228f34/' },
           { text: '机器学习', link: '/pages/16cf22/' },
-          // { text: '操作系统', link: '/pages/54651a/' },
+          { text: '研学周报', link: '/pages/263e38/' },
         ]
       },
       {
